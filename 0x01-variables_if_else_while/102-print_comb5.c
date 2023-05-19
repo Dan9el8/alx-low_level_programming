@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints all possible combinations of a pair of
  * two digits numbers, without any repetition.
@@ -8,7 +7,6 @@
  */
 
 int main(void)
-
 {
 	int i, j;
 	for (i = 0; i <= 99; i++)
