@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Prints all possible combinations of a pair of
  * two digits numbers, without any repetition.
- *
+ *different combination of two digits
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int i, j;
