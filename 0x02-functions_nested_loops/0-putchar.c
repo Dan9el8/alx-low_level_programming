@@ -2,6 +2,8 @@
 
 /**
  * main - Entry poit
+ *Description 'the program decription'
+ * 
  * Return; Always 0
  */
 
@@ -18,4 +20,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}	
+}
