@@ -16,7 +16,7 @@ int main(void)
 	n = 612552475143;
 	max = -1;
 
-	while (n % 2 ==0)
+	while (n % 2 == 0)
 	{
 		max = 2;
 		n /= 2;
@@ -35,5 +35,5 @@ int main(void)
 	printf("%ld\n", max);
 
 	return (0);
-}	
+}
 
