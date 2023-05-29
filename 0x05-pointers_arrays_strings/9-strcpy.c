@@ -2,18 +2,21 @@
 
 /**
 *_strcpy - Copy a string
-*@dest; Destination value
+*@dest: Destination value
 *@src: Source value
 *Return: the pointer to dest
 */
 
 char *_strcpy(char *dest, char *src)
+
 {
-int i;
-for (i = 0; src[i] != '\n'; i++)
+int len = 0;
+
+while (*(src + len) != '\0')
 {
-dest[i] = src[i];
+*(dest + len) = *(src + len);
+len++;
 }
-dest[i++] = '\0';
+*(dest + len) = '\0';
 return (dest);
 }
