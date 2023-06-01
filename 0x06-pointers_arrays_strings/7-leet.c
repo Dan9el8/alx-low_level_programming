@@ -3,7 +3,7 @@
 /**
 *leet - encode into 1337speak
 *@n: input value
-*@Return: n value
+*Return: n value
 */
 
 char *leet(char *n)
@@ -21,5 +21,6 @@ if (n[i] == s1[j])
 n[i] = s2[j];
 }
 }
-}return (n);
+}
+return (n);
 }
