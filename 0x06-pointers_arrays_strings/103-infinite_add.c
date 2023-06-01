@@ -16,9 +16,9 @@ while (*(n + i) != '\0')
 {
 i++;
 }
-i--
+i--;
 
-for (j = 0; j < i; j++;, i--)
+for (j = 0; j < i; j++, i--)
 {
 temp = *(n + j);
 *(n + j) = *(n + i);
@@ -57,7 +57,7 @@ val1 = *(n1 + i) - '0';
 if (j < 0)
 val2 = 0;
 else
-val = *(n2 + j) - '0';
+val2 = *(n2 + j) - '0';
 temp_tot = val1 + val2 + overflow;
 if (temp_tot >= 10)
 overflow = 1;
