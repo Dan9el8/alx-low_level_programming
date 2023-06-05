@@ -18,5 +18,5 @@ for (; n > 0; i++)
 s[i] = b;
 n--;
 }
-return (0);
+return (s);
 }
