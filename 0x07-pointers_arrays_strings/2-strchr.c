@@ -4,7 +4,6 @@
 *_strchr - a fuction that locate a character in a string
 *@c: occurance of a character
 *@s: occurance of a string
-*@NULL: character not found
 *
 *Return: character located in a string
 */
