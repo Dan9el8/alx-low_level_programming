@@ -4,7 +4,7 @@
 *_strstr - Entry point
 *@haystack: input
 *@needle: input
-*
+*Description: locates substring
 *Return; Always 0 (Success)
 */
 
