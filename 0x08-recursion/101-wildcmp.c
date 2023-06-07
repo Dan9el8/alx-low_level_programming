@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*wildcmp(char *s1, char *s2)
+*wildcmp - (char *s1, char *s2)
 *@s1: pointer to string params
 *@s2: pointer to string params
 *Return: 0
