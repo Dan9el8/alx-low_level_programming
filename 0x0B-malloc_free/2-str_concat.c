@@ -5,6 +5,7 @@
 *str _concat - it concatenate two strings
 *@s1: input one to concate
 *@s2: input two  to concate
+*Description - function that concatenates two strings
 *Return: concat of s1 and s2
 */
 
@@ -13,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 char *conct;
 int i, ci;
 
-if (s1 ==NULL)
+if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
