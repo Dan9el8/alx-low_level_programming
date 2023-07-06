@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*binary_to_unit - function that convert binary to unsigned int
+*binary_to_uint - function that convert binary to unsigned int
 *@b: binary number
 *
 *Return: converted number
@@ -17,7 +17,7 @@ return (0);
 
 for (i = 0; b[i]; i++)
 {
-if (b[i] < '0' ||b[i] > '1')
+if (b[i] < '0' || b[i] > '1')
 return (0);
 dec_val = 2 * dec_val + (b[i] - '0');
 }

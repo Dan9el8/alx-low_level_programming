@@ -3,7 +3,7 @@
 /**
 *flip_bits - function that counts no of bit to change
 *@n: first no
-*@m; second number
+*@m: second number
 *
 *Return: number of bits to change
 */
